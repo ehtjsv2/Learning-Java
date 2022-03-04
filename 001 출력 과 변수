@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------------
+<배운점>
+
+//"Must declare a named package ~~~" 오류//
+이 오류 같은 경우는 
+
+// 자바 프로젝트 만드는 법, 클래스 만드는 법//
+
+//변수선언법//
+
+//출력법//
+
+-------------------------------------------------------------------------------------
+<코드>
+
+public class Main {
+
+	final static double PI = 3.141592;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int intType = 100; // int 타입
+		double doubleType = 150.5; // double 타입
+		String stringType = "김도선"; // string 타입
+		int r =30; // 반지름 r
+		
+		System.out.println("Hello World!");
+		
+		System.out.println(r*r* PI); // 원의 넓이
+		
+		System.out.println(intType);
+		System.out.println(doubleType);
+		System.out.println(stringType);
+	}
+
+}
+-------------------------------------------------------------------------------------
+<출력>
+Hello World!
+2827.4328
+100
+150.5
+김도선
