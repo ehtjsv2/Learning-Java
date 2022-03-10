@@ -1,1 +1,26 @@
 
+-JDK란?
+『JDK(Java Development Kit)은 java 어플리케이션을 만드는데 사용되는 소프트웨어 개발 환경.
+JDK는 java프로그램을 코드화하고 실행하는 데 사용 가능하다.
+동일 컴퓨터에 둘 이사의 JDK버전 설치 가능.
+컴파일 디버깅..등등 하는 데 필요.
+
+ [버전]을 선택 할 때 자바는 하위 호완성(Backward Compatibility)을 유지하고 있으므로,
+최신 릴리즈를 다운로드하기만 하면 됨.
+
+ 자바 버전 선택과 함께, [자바 패키지]도 선택해야한다.
+패키지(Package)란 서로 다른 유형의 개발을 표적으로 하는자자 개발 키트이다.
+가용 패키지로는 자바EE(Enterprise Edition), 자바SE(Standard Edition), 자바ME(Mobile Edition)이 있다.
+
+ [JAVA SE]는 C언어의 표준인 C9, C11처럼, 자바의 표준 문법을 의미』
+ 
+-JVM이란?
+ OS/HW의 환경에 맞춰 자바 프로그램을 실행역할.
+
+-JRE란?
+ JRE(Java Runtime Environment)는 JVM이 자바 프로그램을 동작시킬 때 
+필요한 라이브러리 파일들과 기타파일들을 가지고 있다.
+
+ 
+
+ 
