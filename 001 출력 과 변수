@@ -22,24 +22,28 @@ C의 static과 유사하다.
 -------------------------------------------------------------------------------------
 <코드>
 
+
 public class Main {
 
 	final static double PI = 3.141592;
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int intType = 100; // int 타입
 		double doubleType = 150.5; // double 타입
 		String stringType = "김도선"; // string 타입
-		int r =30; // 반지름 r
-		
+		int r = 30; // 반지름 r
+		int a = 1;
+		int b = 2;
+
 		System.out.println("Hello World!");
-		
-		System.out.println(r*r* PI); // 원의 넓이
-		
+
+		System.out.println(r * r * PI); // 원의 넓이
+
 		System.out.println(intType);
 		System.out.println(doubleType);
 		System.out.println(stringType);
+		System.out.println("a+b=" + (a + b));
 	}
 
 }
@@ -50,3 +54,4 @@ Hello World!
 100
 150.5
 김도선
+a+b=3
