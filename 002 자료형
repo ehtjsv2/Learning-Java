@@ -1,2 +1,55 @@
 -자료형
 C와 다른점은 String형과 boolean형이 존재한다는 것이다.
+
+-char형은 아스키코드 기반.
+
+-10진수의 8진수, 16진수변환법
+%o같은 %x와 같은형태를 쓰려면 format을 이용해주어야한다.
+
+-문자열출력
+String 자료형 안에는 substring이라는 내부적인 함수가 존재
+System.out.println(문자열변수.substring(인덱스N,M)형태
+인덱스 N부터 M번째 문자까지 출력(여기서 N은 첫문자가 0부터 계산, M은 첫문자가 1로계산)
+
+----------------------------------------------------------------------------------------------------------------
+<코드>
+public class Main {
+
+	public static void main(String[] args) {
+		// double 출력
+		double a = 10.3;
+		double b = 9.6;
+		double c = 10.1;
+		System.out.println((a + b + c) / 3);
+
+		// 아스키코드 기반의 char형
+		for (char i = 'a'; i <= 'z'; i++) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
+
+		// 10진수 8진수 16진수변환
+		int d = 200;
+		System.out.println("10진수 :" + d);
+		System.out.format("8 진수 : %o\n", d);
+		System.out.format("16 진수 : %x\n", d);
+		
+		// 문자열 출력
+		
+		String name="Doseon Kim";
+		System.out.println(name);
+		System.out.println(name.substring(0,1));
+		System.out.println(name.substring(3,6));
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------
+<출력>
+10.0
+a b c d e f g h i j k l m n o p q r s t u v w x y z 
+10진수 :200
+8 진수 : 310
+16 진수 : c8
+Doseonm Kim
+D
+eon
