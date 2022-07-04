@@ -8,7 +8,7 @@ public class Main {
 
 }
 ``
-> 메모장에서 코드를 이렇게 작성하고 파일이름을 Helloworld.java로 하니까 오류가 발생했다
+> 메모장에서 코드를 이렇게 작성하고 파일이름을 Helloworld.java로 하니까 오류가 발생했다\\
 ``
  error: class Main is public, should be declared in a file named Main.java
 public class Main
